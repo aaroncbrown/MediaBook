@@ -1,12 +1,3 @@
-PublicActivity::ORM::ActiveRecord::Activity.create!([
-  {trackable_type: "Friendship", trackable_id: 9, owner_type: "User", owner_id: 6, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 1},
-  {trackable_type: "Friendship", trackable_id: 9, owner_type: "User", owner_id: 1, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 6},
-  {trackable_type: "Friendship", trackable_id: 10, owner_type: "User", owner_id: 1, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 4},
-  {trackable_type: "Friendship", trackable_id: 10, owner_type: "User", owner_id: 4, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 1},
-  {trackable_type: "Friendship", trackable_id: 12, owner_type: "User", owner_id: 5, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 2},
-  {trackable_type: "Friendship", trackable_id: 12, owner_type: "User", owner_id: 2, key: "friendship.accepted", parameters: {}, recipient_type: "User", recipient_id: 5},
-  {trackable_type: "Post", trackable_id: 1, owner_type: "User", owner_id: 1, key: "post.created", parameters: {}, recipient_type: nil, recipient_id: nil}
-])
 User.create!([
   {email: "aaroncbrown1993@gmail.com", password: "password", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 6, current_sign_in_at: "2016-12-20 15:07:43", last_sign_in_at: "2016-12-19 16:40:06", current_sign_in_ip: "::1", last_sign_in_ip: "::1", username: "aaronbc", name: "Aaron", age: 23, bio: "I'm great", school: "unc", work: "produce associate"},
   {email: "student0@gmail.com", password: "password", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 3, current_sign_in_at: "2016-12-19 16:35:01", last_sign_in_at: "2016-12-19 01:48:25", current_sign_in_ip: "::1", last_sign_in_ip: "::1", username: "awesomeStudent0", name: nil, age: nil, bio: nil, school: nil, work: nil},
